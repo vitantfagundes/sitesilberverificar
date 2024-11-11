@@ -193,6 +193,32 @@ header {
   height: auto;
 }
 
+.modelosection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.insidemodelosection {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que os boxes se movam para a linha seguinte em telas menores */
+}
+
+.tabela {
+  max-width: 100%;
+  height: auto;
+}
+.video {
+  max-width: 100%;
+  height: auto;
+}
+
  
 /* MÁQUINAS LASER E PLASMA */
 
