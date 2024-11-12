@@ -1,9 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
 
 /* MENU */
@@ -19,7 +19,8 @@ header {
 
 .navbar {
   max-width: 1200px;
-  margin: 0 auto; /* Centraliza o conteúdo */
+  margin: 0 auto;
+  /* Centraliza o conteúdo */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,8 +56,10 @@ header {
 }
 
 .whatsapp-link {
-  border: 3px solid #ff6900; /* Borda laranja de 3px */
-  border-radius: 5px; /* Arredondamento opcional */
+  border: 3px solid #ff6900;
+  /* Borda laranja de 3px */
+  border-radius: 5px;
+  /* Arredondamento opcional */
 }
 
 /* Cor de fundo ao passar o mouse no link "WhatsApp" */
@@ -64,13 +67,14 @@ header {
   color: #fff;
 }
 
-  
+
 /* HERO SECTION */
 
 .herosection {
   width: 100%;
   height: 600px;
-  position: relative; /* Para posicionar elementos sobre o vídeo */
+  position: relative;
+  /* Para posicionar elementos sobre o vídeo */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -86,7 +90,8 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1; /* Fica atrás dos outros elementos */
+  z-index: 1;
+  /* Fica atrás dos outros elementos */
 }
 
 .overlay {
@@ -95,18 +100,22 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Sobreposição preta translúcida */
-  z-index: 2; /* Fica sobre o vídeo, mas atrás do texto */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Sobreposição preta translúcida */
+  z-index: 2;
+  /* Fica sobre o vídeo, mas atrás do texto */
 }
 
 .insideherosection {
   position: relative;
   width: 80%;
   max-width: 1200px;
-  z-index: 3; /* Fica acima do vídeo e da sobreposição */
+  z-index: 3;
+  /* Fica acima do vídeo e da sobreposição */
   display: flex;
   justify-content: center;
-  flex-direction: column; /* Centraliza o texto verticalmente */
+  flex-direction: column;
+  /* Centraliza o texto verticalmente */
   text-align: center;
   color: #fff;
 }
@@ -137,20 +146,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Permite que os boxes se movam para a linha seguinte em telas menores */
+  flex-wrap: wrap;
+  /* Permite que os boxes se movam para a linha seguinte em telas menores */
 }
 
 .text-box {
-  flex: 0 0 30%; /* Define o texto para ocupar 30% */
+  flex: 0 0 30%;
+  /* Define o texto para ocupar 30% */
   color: #333;
 }
 
 .text-box h2 {
-  font-family: 'Roboto', sans-serif; /* Define a fonte Roboto */
+  font-family: 'Roboto', sans-serif;
+  /* Define a fonte Roboto */
   font-size: 45px;
   line-height: 1;
   margin-bottom: 10px;
-  font-weight: 100; /* Roboto Thin */
+  font-weight: 100;
+  /* Roboto Thin */
 }
 
 .text-box h2 strong {
@@ -159,7 +172,8 @@ header {
 }
 
 .text-box p {
-  font-family: 'Roboto'; /* Define a fonte Roboto Thin */
+  font-family: 'Roboto';
+  /* Define a fonte Roboto Thin */
   font-size: 20px;
   color: #666;
   margin-bottom: 20px;
@@ -184,7 +198,8 @@ header {
 }
 
 .image-box {
-  flex: 0 0 70%; /* Define a imagem para ocupar 70% */
+  flex: 0 0 70%;
+  /* Define a imagem para ocupar 70% */
   text-align: right;
 }
 
@@ -207,19 +222,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Permite que os boxes se movam para a linha seguinte em telas menores */
+  flex-wrap: wrap;
+  /* Permite que os boxes se movam para a linha seguinte em telas menores */
 }
 
 .tabela {
   max-width: 100%;
   height: auto;
 }
+
 .video {
   max-width: 100%;
   height: auto;
 }
 
- 
+
 /* MÁQUINAS LASER E PLASMA */
 
 .modelos {
@@ -227,60 +244,84 @@ header {
   min-width: 350px;
   display: flex;
   justify-content: center;
-  background-color: #ffffff; /* Cor de fundo para destaque */
-  padding: 20px 0; /* Espaço vertical da section */
-  flex-direction: column; /* Alinha o título e os boxes em coluna */
-  align-items: center; /* Centraliza o conteúdo da seção */
+  background-color: #ffffff;
+  /* Cor de fundo para destaque */
+  padding: 20px 0;
+  /* Espaço vertical da section */
+  flex-direction: column;
+  /* Alinha o título e os boxes em coluna */
+  align-items: center;
+  /* Centraliza o conteúdo da seção */
 }
 
 .modelos h2 {
-  text-align: center; /* Centraliza o título */
-  font-size: 35px; /* Tamanho do título */
-  font-weight: 100; /* Deixa o título em negrito */
-  margin-bottom: 80px; /* Espaço abaixo do título */
-  color: #333; /* Cor do título */
+  text-align: center;
+  /* Centraliza o título */
+  font-size: 35px;
+  /* Tamanho do título */
+  font-weight: 100;
+  /* Deixa o título em negrito */
+  margin-bottom: 80px;
+  /* Espaço abaixo do título */
+  color: #333;
+  /* Cor do título */
 }
 
 .laser {
-  width: 80%; /* Ajuste conforme necessário */
-  max-width: 1200px; /* Limite de largura máxima */
+  width: 80%;
+  /* Ajuste conforme necessário */
+  max-width: 1200px;
+  /* Limite de largura máxima */
   display: flex;
-  justify-content:space-evenly; /* Centraliza os boxes horizontalmente */
-  align-items: center; /* Alinha os boxes verticalmente */
-  gap: 20px; /* Adiciona espaço entre os boxes */
-  flex-wrap: wrap; /* Permite que os boxes se movam para a linha seguinte em telas menores */
-  margin-bottom: 50px; /* Espaço abaixo do título */
+  justify-content: space-evenly;
+  /* Centraliza os boxes horizontalmente */
+  align-items: center;
+  /* Alinha os boxes verticalmente */
+  gap: 20px;
+  /* Adiciona espaço entre os boxes */
+  flex-wrap: wrap;
+  /* Permite que os boxes se movam para a linha seguinte em telas menores */
+  margin-bottom: 50px;
+  /* Espaço abaixo do título */
 }
 
 .box {
-  background-color: #ffffff; /* Cor de fundo dos boxes */
+  background-color: #ffffff;
+  /* Cor de fundo dos boxes */
   padding: 40px;
   color: #000000;
   text-align: center;
-  border-radius: 8px; /* Cantos arredondados */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  border-radius: 8px;
+  /* Cantos arredondados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 250px; /* Garante que os boxes tenham uma largura mínima */
-  max-width: 350px; /* Limita a largura máxima dos boxes */
-  height: 100%; /* Garante que a altura do box seja aproveitada */
+  min-width: 250px;
+  /* Garante que os boxes tenham uma largura mínima */
+  max-width: 350px;
+  /* Limita a largura máxima dos boxes */
+  height: 100%;
+  /* Garante que a altura do box seja aproveitada */
 }
 
 .box img {
   width: 100%;
-  height: 200px; /* Tamanho fixo para a imagem */
-  object-fit: cover; /* Garante que a imagem ocupe todo o espaço sem distorcer */
+  height: 200px;
+  object-fit:contain;
   border-radius: 4px;
-  margin-bottom: 15px; /* Espaço abaixo da imagem */
+  margin-bottom: 15px;
 }
 
 .box h3 {
   font-weight: 100;
   margin: 10px 0;
   font-size: 1.2em;
-  flex-shrink: 0; /* Impede que o título encolha */
-  height: 40px; /* Altura fixa para o título */
+  flex-shrink: 0;
+  /* Impede que o título encolha */
+  height: 40px;
+  /* Altura fixa para o título */
 }
 
 .box button {
@@ -293,7 +334,8 @@ header {
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease;
-  align-self: center; /* Centraliza o botão horizontalmente */
+  align-self: center;
+  /* Centraliza o botão horizontalmente */
 }
 
 .box button:hover {
@@ -309,28 +351,38 @@ header {
   min-width: 350px;
   display: flex;
   justify-content: center;
-  background-color: #0f0f0f; /* Cor de fundo para destaque */
-  padding: 20px 0; /* Espaço vertical da section */
+  background-color: #0f0f0f;
+  /* Cor de fundo para destaque */
+  padding: 20px 0;
+  /* Espaço vertical da section */
 }
 
 .insideformsection {
-  width: 80%; /* Ajuste conforme necessário */
-  max-width: 1200px; /* Limite de largura máxima */
+  width: 80%;
+  /* Ajuste conforme necessário */
+  max-width: 1200px;
+  /* Limite de largura máxima */
   display: flex;
-  justify-content: center; /* Centraliza o formulário */
+  justify-content: center;
+  /* Centraliza o formulário */
 }
 
 .form {
   width: 80%;
-  background-color: transparent; /* Cor de fundo do formulário */
+  background-color: transparent;
+  /* Cor de fundo do formulário */
   color: #fff;
   text-align: left;
   padding: 20px;
-  border-radius: 8px; /* Bordas arredondadas */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  border-radius: 8px;
+  /* Bordas arredondadas */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* Sombra suave para destaque */
   display: flex;
-  flex-direction: column; /* Organiza os elementos do formulário verticalmente */
-  align-items: center; /* Centraliza todos os itens dentro do formulário */
+  flex-direction: column;
+  /* Organiza os elementos do formulário verticalmente */
+  align-items: center;
+  /* Centraliza todos os itens dentro do formulário */
 }
 
 form h3 {
@@ -348,7 +400,8 @@ form p {
 
 .form-group {
   margin-bottom: 15px;
-  width: 100%; /* Garante que as form-group ocupam a largura total */
+  width: 100%;
+  /* Garante que as form-group ocupam a largura total */
 }
 
 label {
@@ -357,7 +410,9 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
@@ -365,16 +420,21 @@ input[type="text"], input[type="email"], textarea {
   border: #ff6900 solid 2px;
   background: transparent;
   color: #fff;
-  transition: all 0.3s ease; /* Transição suave */
+  transition: all 0.3s ease;
+  /* Transição suave */
 }
 
 /* Definir estilo para o placeholder */
-input::placeholder, textarea::placeholder {
-  color: #bbb; /* Cor do texto do placeholder */
+input::placeholder,
+textarea::placeholder {
+  color: #bbb;
+  /* Cor do texto do placeholder */
 }
 
-input:focus::placeholder, textarea:focus::placeholder {
-  color: transparent; /* Quando o campo está em foco, o placeholder fica invisível */
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+  /* Quando o campo está em foco, o placeholder fica invisível */
 }
 
 textarea {
@@ -385,7 +445,8 @@ textarea {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  width: 100%; /* Garante que a row ocupe a largura total */
+  width: 100%;
+  /* Garante que a row ocupe a largura total */
 }
 
 .row .form-group {
@@ -402,7 +463,8 @@ button {
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin-top: 20px; /* Adiciona um espaço acima do botão */
+  margin-top: 20px;
+  /* Adiciona um espaço acima do botão */
 }
 
 button:hover {
@@ -412,20 +474,23 @@ button:hover {
 
 @media (max-width: 768px) {
   .row {
-      flex-direction: column; /* Empilha os campos em telas menores */
-      gap: 10px;
+    flex-direction: column;
+    /* Empilha os campos em telas menores */
+    gap: 10px;
   }
 
   .row .form-group {
-      width: 100%;
+    width: 100%;
   }
 
   .form {
-      align-items: stretch; /* Garante que o formulário ocupe toda a largura disponível em telas pequenas */
+    align-items: stretch;
+    /* Garante que o formulário ocupe toda a largura disponível em telas pequenas */
   }
 
   button {
-      width: 100%; /* Faz o botão ocupar a largura total em telas pequenas */
+    width: 100%;
+    /* Faz o botão ocupar a largura total em telas pequenas */
   }
 }
 
@@ -435,7 +500,8 @@ button:hover {
   width: 100%;
   height: 300px;
   overflow: hidden;
-  background-color: #ffffff; /* Fundo branco para contraste */
+  background-color: #ffffff;
+  /* Fundo branco para contraste */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,7 +509,8 @@ button:hover {
 
 .insideslider {
   width: 100%;
-  max-width: 1200px; /* Limita a largura máxima a 1200px */
+  max-width: 1200px;
+  /* Limita a largura máxima a 1200px */
   display: flex;
   overflow: hidden;
 }
@@ -455,7 +522,8 @@ button:hover {
 
 .slider img {
   height: 50px;
-  margin: 0 20px; /* Espaçamento entre logos */
+  margin: 0 20px;
+  /* Espaçamento entre logos */
   object-fit: contain;
 }
 
@@ -464,6 +532,7 @@ button:hover {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -471,29 +540,35 @@ button:hover {
 
 
 
-  /* FOOTER */
+/* FOOTER */
 .footersection {
-    width: 100%;
-    min-width: 350px;
-    display: flex;
-    justify-content: center;
-    background-color: #0f0f0f; /* Cor de fundo para destaque */
-    padding: 20px 0; /* Espaço vertical da section */
-  }
-  
-  .insidefootersection {
-    width: 80%; /* Ajuste conforme necessário */
-    max-width: 1200px; /* Limite de largura máxima */
-    display: flex;
-    justify-content: space-between; /* Espaça os boxes uniformemente */
-  }
-  
-  .footer {
-    flex: 1;
-    background-color: transparent; /* Cor de fundo dos boxes */
-    margin: 0; /* Espaço entre os boxes */
-    color: #fff;
-    text-align: left;
-    padding: 20px;
-  }
-  
+  width: 100%;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  background-color: #0f0f0f;
+  /* Cor de fundo para destaque */
+  padding: 20px 0;
+  /* Espaço vertical da section */
+}
+
+.insidefootersection {
+  width: 80%;
+  /* Ajuste conforme necessário */
+  max-width: 1200px;
+  /* Limite de largura máxima */
+  display: flex;
+  justify-content: space-between;
+  /* Espaça os boxes uniformemente */
+}
+
+.footer {
+  flex: 1;
+  background-color: transparent;
+  /* Cor de fundo dos boxes */
+  margin: 0;
+  /* Espaço entre os boxes */
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+}
