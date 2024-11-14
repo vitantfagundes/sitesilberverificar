@@ -127,7 +127,12 @@ header {
 }
 
 .thehero p {
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  /* Define a fonte Roboto */
+  font-size: 2.8125rem; /* 45px em rem (45 / 16 = 2.8125) */
+  line-height: 1;
+  margin-bottom: 0.625rem; /* 10px em rem */
+  font-weight: 100; /* Roboto Thin */
 }
 
 
