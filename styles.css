@@ -226,6 +226,13 @@ header {
   /* Permite que os boxes se movam para a linha seguinte em telas menores */
 }
 
+@media (max-width: 900px) {
+  .insidemodelosection {
+    flex-direction: column; /* Altera a direção do layout para coluna */
+    align-items: flex-start; /* Alinha os itens no início */
+  }
+}
+
 .tabela {
   max-width: 100%;
   height: auto;
