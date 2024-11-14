@@ -229,7 +229,8 @@ header {
 @media (max-width: 900px) {
   .insidemodelosection {
     flex-direction: column; /* Altera a direção do layout para coluna */
-    align-items: flex-start; /* Alinha os itens no início */
+    flex-wrap: nowrap;
+    align-items: center; /* Alinha os itens no início */
   }
 }
 
