@@ -107,6 +107,7 @@ header {
 }
 
 .insideherosection {
+  margin-top: 60px;
   position: relative;
   width: 80%;
   max-width: 1200px;
